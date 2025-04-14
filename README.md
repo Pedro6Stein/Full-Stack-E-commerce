@@ -1,4 +1,4 @@
-# 🛒 Full-Stack E-Commerce App (2024)
+# 🛒 Full-Stack E-Commerce App (2025)
 
 Welcome to this full-stack e-commerce project! This application is built using cutting-edge technologies of 2024 and follows best practices in modern web development.
 
