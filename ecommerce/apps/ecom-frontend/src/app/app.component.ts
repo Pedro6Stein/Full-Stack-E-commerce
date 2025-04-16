@@ -1,13 +1,18 @@
-import { Component } from '@angular/core';
-import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { Component, OnInit, inject } from '@angular/core';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { fontAwesomeIcons } from './shared/font-awesome-icons';
 
 @Component({
-  imports: [NxWelcomeComponent, RouterModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  styleUrls: ['./app.component.scss'],
 })
-export class AppComponent {
-  title = 'ecom-frontend';
+export class AppComponent implements OnInit {
+  // 1) Correto: injeta o serviço FaIconLibrary, anotando o tipo explicitamente
+  private faIconLibrary: FaIconLibrary = inject(FaIconLibrary);
+
+  ngOnInit(): void {
+    // 2) Registra todos os ícones definidos no array
+    this.faIconLibrary.addIcons(...fontAwesomeIcons);
+  }
 }
