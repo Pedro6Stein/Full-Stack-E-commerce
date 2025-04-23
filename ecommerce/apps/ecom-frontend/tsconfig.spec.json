@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "outDir": "./out-tsc/spec",
+      "types": ["jasmine", "node"]    // ← carrega describe/it/expect etc.
+    },
+    // REMOVA esta seção se ela existir:
+    // "files": ["src/test.ts"],
+  
+    // e mantenha só isto:
+    "include": [
+      "src/**/*.spec.ts",
+      "src/**/*.d.ts"
+    ]
+  }  
