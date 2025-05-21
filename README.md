@@ -1,42 +1,28 @@
-# 🛒 Full-Stack E-Commerce App (2025)
+# 🛒 Full-Stack E-Commerce App
 
-Welcome to this full-stack e-commerce project! This application is built using cutting-edge technologies of 2025 and follows best practices in modern web development.
+> Projeto de e-commerce full-stack **em desenvolvimento**.
 
-## 🚀 Tech Stack
+## 🚧 Status
+Este repositório ainda está em fase inicial: muitas funcionalidades serão implementadas em breve!
 
+## 🛠️ Stack Tecnológica
 - **Backend:** Spring Boot 3  
 - **Frontend:** Angular 18  
-- **Styling:** Tailwind CSS + Daisy UI  
-- **Database:** PostgreSQL  
-- **Authentication:** Kinde
+- **Estilização:** Tailwind CSS + Daisy UI  
+- **Banco de dados:** PostgreSQL  
+- **Autenticação:** Kinde  
 
-## 📦 Features
+## 📂 Estrutura do Projeto
+├─ backend/ ← API Spring Boot
+├─ frontend/ ← App Angular
+└─ infra/ ← Scripts e configurações de DB, CI/CD etc.
 
-- User authentication and authorization
-- Product listing and detail pages
-- Shopping cart and checkout flow
-- Admin dashboard for product management
-- Responsive and elegant UI components
-
-## 🧠 What You'll Learn
-
-- How to structure a full-stack app using Spring Boot and Angular
-- Best practices for backend and frontend integration
-- Using Tailwind and DaisyUI for clean, responsive UIs
-- Implementing secure authentication with Kinde
-- How to connect and manage data with PostgreSQL
-
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- Node.js & Angular CLI
-- Java 21+ and Maven
-- PostgreSQL running locally or in the cloud
-- Kinde account for authentication
-
-### Backend Setup
-
-```bash
-cd backend
-./mvnw spring-boot:run
+## 🚀 Próximos Passos
+- Estruturar entidades e repositórios no backend  
+- Criar endpoints REST e integrar com Angular  
+- Desenvolver componentes de interface com Tailwind + DaisyUI  
+- Configurar autenticação e autorização com Kinde  
+- Implantação contínua (CI/CD) e infraestrutura de banco
+- 
+---
+*Em breve mais detalhes de instalação, configuração e uso!*  
